@@ -2,6 +2,7 @@
 
 static void RunAllTests(void)
 {
+  RUN_TEST_GROUP(Mocks);
 }
 
 int main(int argc, const char **argv)
