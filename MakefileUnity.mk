@@ -21,6 +21,7 @@ SRC_DIRS = \
 TEST_SRC_DIRS = \
 	$(PROJECT_TEST_DIR) \
 	$(PROJECT_TEST_DIR)/mocks \
+	$(PROJECT_TEST_DIR)/driver_led \
 	$(UNITY_HOME)
 
 MOCKS_SRC_DIRS = \
@@ -29,6 +30,7 @@ MOCKS_SRC_DIRS = \
 INCLUDE_DIRS = \
 	.\
 	$(UNITY_HOME) \
-	$(PROJECT_HOME_DIR)/mocks
+	$(PROJECT_HOME_DIR)/mocks \
+	$(PROJECT_HOME_DIR)/src
 
 include $(UNITY_BUILD_HOME)/MakefileWorker.mk
